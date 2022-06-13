@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html5 구조</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif
+            'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: blueviolet;
+            color: #000;
+            margin: 0px;
+            text-align: center;
+            padding: 5px;
+        }
+        h1{
+            margin: 0px;
+        }
+        section#main{
+            display: table-cell;
+            background-color: yellow;
+            padding: 15px;
+        }
+        nav{
+            display: table-cell;
+            background-color: pink;
+            padding: 15px;
+        }
+        footer{
+            background-color: darkorange;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+            font-size: 90%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML5 Blog Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://www.w3.org/">W3C</a></li>
+            <li><a href="https://www.naver.com/">네이버</a></li>
+            <li><a href="https://www.daum.net/">다음</a></li>
+        </ul>
+
+        <figure>
+        <img width="85" height="85" src="img/ww.gif" alt="죠르디">
+        <figcaption>귀여운 죠르디</figcaption>
+    </figure>
+    </nav>
+
+
+    <section id="main">
+        <article>
+            <h1>죠르디에 대한 내용</h1>
+            <p>
+                죠르디는 귀엽돠 왜냐하면 귀엽기때문이다
+                그 귀여움은 아무도 따라갈 수 없다
+            </p>
+        </article>
+        <article>
+            <h1>Semantic Tags</h1>
+            <p>
+                죠르디는 귀엽돠 왜냐하면 귀엽기때문이다
+                그 귀여움은 아무도 따라갈 수 없다
+            </p>
+        </article>
+    </section>
+    <footer>
+        Copy right(c) 2022 kim
+    </footer>
+</body>
+</html>

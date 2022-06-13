@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(223, 223, 175);
+    font-family: serif;
+    color: black;
+}
+h1{
+    color:red;
+}
+.first{color: green;}
+
+.second{color: blue;}
