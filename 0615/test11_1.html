@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function LoginProcess(){
+            var userId = document.getElementById("userId").value;
+            var userPwd = document.getElementById("userPwd").value;
+            if(userId == "") {
+                alert("아이디를 입력해주세요.");
+                return false;
+            }
+            if(userPwd == "") {
+                alert("비밀번호를 입력해주세요.");
+                return false;
+            }
+            if(userId == "test" && userPwd == "1234"){
+                alert("로그인되었습니다.");
+            } 
+            else
+            {
+                alert("로그인 정보를 다시확인해주세요.");
+            }
+            // userId = "test" , userPwd = "1234" 로그인처리가 됨.
+        }
+    </script>
+</head>
+<body>
+    <table style="background-color: #f0f0f0;">
+        <tr align="center">
+            <td colspan="2"><img class="dog" src="img/ww.gif" width="100"></td>
+        </tr>
+        <tr>
+            <td>아이디 : </td>
+            <td><input type="text" name="userId" id="userId" size="8">
+        </tr>
+        <tr>
+            <td>비밀번호 : </td>
+            <td><input type="password" name="userPwd" id="userPwd" size="8">
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Login" onclick="LoginProcess();">
+            </td>
+        </tr>
+    </table>
+
+</body>
+</body>
+</html>
