@@ -1,5 +1,5 @@
 // JavaScript Document
-
+ 
 var imgs = 4;
 var now = 0;
 
