@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script>
         $(document).ready(function(){
-            $("h2").click(function(){
-                $(this).hide();
+            $("button").click(function(){
+                alert($("#target").val())
             });
         });
     </script>
 </head>
 <body>
-    <h2>클릭하면 사라집니다</h2>
+    이름 : <input type="text" id="target" value="">
+    <button id="text">val()</button>
 </body>
 </html>
